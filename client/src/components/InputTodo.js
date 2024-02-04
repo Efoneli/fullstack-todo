@@ -13,7 +13,7 @@ const InputTodo = () => {
         body: JSON.stringify(body),
       });
 
-      console.log(response);
+      window.location = "/";
     } catch (err) {
       console.log(err.message);
     }
@@ -27,7 +27,7 @@ const InputTodo = () => {
           type="text"
           className="form-control"
           value={description}
-          onChange={e => setDescription(e.target.value)}
+          onChange={(e) => setDescription(e.target.value)}
         />
         <button className="btn btn-success">Add</button>
       </form>
