@@ -49,7 +49,7 @@ const ListTodo = () => {
               </td>
               <td>
                 <button
-                  classNameName="btn btn-danger"
+                  className="btn btn-danger"
                   onClick={() => deleteTodo(todo.todo_id)}
                 >
                   Delete{" "}
