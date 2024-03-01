@@ -4,7 +4,7 @@ import pool from "./db";
 
 const app = express();
 
-// middleware
+// middlewares
 app.use(cors());
 app.use(express.json());
 

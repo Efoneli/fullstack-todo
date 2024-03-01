@@ -1,6 +1,5 @@
 import { Pool } from 'pg';
 
-// Create a new Pool instance
 const pool = new Pool({
     user: 'postgres',
     password: 'Tatashe1',
@@ -9,5 +8,4 @@ const pool = new Pool({
     database: 'perntodo'
 });
 
-// Export the pool for use in other modules
 export default pool;
